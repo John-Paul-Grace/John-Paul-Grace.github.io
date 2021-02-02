@@ -1,11 +1,11 @@
-# 02-Responsive-Portfolio
+# John Paul Grace
 
 ## Link to Website
-https://john-paul-grace.github.io/2-Responsive-Portfolio/
+https://john-paul-grace.github.io/Portfolio/
 
 ## Description
 
-This is a portfolio website designed to be responsive for different device sizes. The navigation bar can be used to access three pages with information about me. The first is the "About Me" page which is the index file. There is also a page for "Contact" and another for "Portfolio". 
+This is a portfolio website designed to be responsive for different device sizes. The navigation bar can be used to access three pages with information about me. The first is the "About Me" page which is the index file. There is also a page for "Contact" and another for "Portfolio". This website serves as my online resume. 
 
 ## Contributions
 
