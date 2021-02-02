@@ -9,17 +9,38 @@ body, html{
 }
 /* This class gives a repeating background image. */
 .background {
-    background-image: url("../images/topographic-background.jpg");
+    background-image: url("../images/background.png");
     background-repeat: repeat;
     min-height: 92%;
 }
 
 /* This class ensures that the content is on an easy-to-read white box instead of the patterned background. */
 .content-wrapper {
+    border: 5px solid pink;
+    border-radius: 15px;
     background-color: white;
 }
 
 /* This class changes the color of the subtitles for the content. Because I was not very specific with the h2, this may affect other elements in unintended ways if more content was added to the pages. */
 h2 {
     color: aqua;
+}
+
+.screenshot {
+    border: 2px solid black;
+    width: 500px;
+}
+
+hr {
+    border: 10px solid pink;
+    border-radius: 5px;
+}
+
+.screenshot-description {
+    white-space: pre-line;
+}
+
+.screenshot-description span {
+    font-size: large;
+    font-weight: bold;
 }
