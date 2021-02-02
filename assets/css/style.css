@@ -1,0 +1,25 @@
+/* This class styles the brand image at the top. In this case, the image is my name. ".navbar-light" is here to make sure that my class matches the specificity of Bootstrap. */
+.navbar-light .navbar-brand {
+    background-color: aqua;
+    color: white;
+}
+
+body, html{
+    height: 100%;
+}
+/* This class gives a repeating background image. */
+.background {
+    background-image: url("../images/topographic-background.jpg");
+    background-repeat: repeat;
+    min-height: 92%;
+}
+
+/* This class ensures that the content is on an easy-to-read white box instead of the patterned background. */
+.content-wrapper {
+    background-color: white;
+}
+
+/* This class changes the color of the subtitles for the content. Because I was not very specific with the h2, this may affect other elements in unintended ways if more content was added to the pages. */
+h2 {
+    color: aqua;
+}

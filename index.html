@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JPG Portfolio: About Me</title>
+
+        <!-- Link to Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <!-- Link to personal CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Bootstrap Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!-- This puts my name in the navbar -->
+            <a class="navbar-brand" href="./index.html">John Paul Grace</a>
+
+            <!-- This causes the links to collapse into a button when the screen is small enough -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- These are the links that will be collapsed when the screen is small enough -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- Background the wraps the content so that the content appears on top -->
+          <div class="background">
+
+            <!-- Grid system for containing the main content of the page -->
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- This column is here just to make the next column centered -->
+                    <div class="col-lg-1"></div>
+
+                    <!-- This column takes leaves some margins on both sides for most screens, but spans the whole width on very small screens -->
+                    <main class="col-lg-10 col-xs-12 mt-4 content-wrapper">
+
+                        <!-- Content subtitle -->
+                        <h2>About Me</h2>
+
+                        <!-- An image that should have one paragraph of text to the right and one paragraph below -->
+                        <img class="float-left mr-3 mb-3" src="./assets/images/jpg-headshot.jpeg" width=250px alt= "A picture of me">
+
+                        <!-- This paragraph should be beside the image -->
+                        <p>
+                            I am a fledgeling full-stack web developer who has been doing back-end programs for years. I began studying computer science in middle school when I joined an afterschool S.T.E.M. club. We made small programs and robotics with Arduino, and I instantly fell in love with programming. I am fluent in Java, have studied Python, and am currently studying HTML, CSS, and JavaScript. Although I wish to become a full-stack developer, my true passion lies in the logical problem-solving of back-end development.
+                        </p>
+
+                        <!-- This paragraph should be below the image -->
+                        <p class="float-left">
+                            As for more personal information, I am currently twenty years-old and live in the town of Highlands, NC. I attended Highlands High School, and, for a time, I studied at UNC-Chapel Hill for a degree in computer science. 
+                        </p>
+                    <!-- Close column -->
+                      </main>
+
+                  <!-- Close row -->
+                  </div>
+  
+              <!-- Close grid container -->
+              </div>
+
+            <!-- Close background -->
+            </div>
+            
+    </body>
+</html>
