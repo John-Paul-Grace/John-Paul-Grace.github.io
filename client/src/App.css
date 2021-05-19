@@ -14,11 +14,11 @@ body, html{
     height: 100%;
 }
 /* This class gives a repeating background image. */
-/* .background {
-    background-image: url("../images/background.png");
+.background {
+    background-image: url("./images/background.png");
     background-repeat: repeat;
     min-height: 92%;
-} */
+}
 
 /* This class ensures that the content is on an easy-to-read white box instead of the patterned background. */
 .content-wrapper {

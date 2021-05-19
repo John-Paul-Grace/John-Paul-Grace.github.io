@@ -10,13 +10,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route exact path={["/", "/about-me"]} component={AboutMe} />
+      <div className="background">
+        <Switch>
+          <Route exact path={["/", "/about-me"]} component={AboutMe} />
 
-        <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact" component={Contact} />
 
-        <Route exact path="/portfolio" component={Portfolio} />
-      </Switch>
+          <Route exact path="/portfolio" component={Portfolio} />
+        </Switch>
+      </div>
     </Router>
   );
 }
