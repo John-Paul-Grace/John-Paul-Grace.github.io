@@ -1,7 +1,7 @@
 # John Paul Grace
 
 ## Link to Website
-https://john-paul-grace.github.io/Portfolio/
+https://john-paul-grace.github.io/
 
 ## Description
 
