@@ -12,6 +12,6 @@ This is a portfolio website designed to be responsive for different device sizes
 This website was built from the ground up by me with the help of the Bootstrap framework version 4.5. I used the "Navbar" and "Forms" components, as well as the grid system included with Bootstrap.
 
 ## Screenshots
-![ScreenShot](./assets/images/Screenshot-1.PNG)
-![ScreenShot](./assets/images/Screenshot-2.PNG)
-![ScreenShot](./assets/images/Screenshot-3.PNG)
+![ScreenShot](./screenshots/Screenshot-1.PNG)
+![ScreenShot](./screenshots/Screenshot-2.PNG)
+![ScreenShot](./screenshots/Screenshot-3.PNG)
