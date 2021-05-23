@@ -17,7 +17,7 @@ body, html{
 }
 
 /* This class changes the color of the subtitles for the content. Because I was not very specific with the h2, this may affect other elements in unintended ways if more content was added to the pages. */
-header {
+.header {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
