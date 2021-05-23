@@ -9,8 +9,8 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <Router>
-      <Navbar />
       <div className="background">
+        <Navbar />
         <Switch>
           <Route exact path={["/", "/about-me"]} component={AboutMe} />
 

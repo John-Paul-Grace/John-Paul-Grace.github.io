@@ -8,12 +8,12 @@ import weatherDashboardScreenshot from "../../images/weather-dashboard.PNG";
 const Portfolio = () => {
   return (
     // <!-- Grid system for containing the main content of the page -->
-    <div class="container">
-      <div class="row">
+    <div className="container">
+      <div className="row">
         {/* <!-- This column is here just to make the next column centered --> */}
-        <div class="col-lg-1" />
+        <div className="col-lg-1" />
         {/* <!-- This column takes leaves some margins on both sides for most screens, but spans the whole width on very small screens --> */}
-        <main class="col-lg-10 col-xs-12 mt-4 content-wrapper">
+        <main className="col-lg-10 col-xs-12 mt-4 content-wrapper">
           {/* <!-- Content subtitle --> */}
           <header>Portfolio</header>
           <PortfolioItem

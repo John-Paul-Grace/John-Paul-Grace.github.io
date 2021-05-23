@@ -2,18 +2,18 @@ import React from "react";
 
 const PortfolioItem = ({ name, screenshot, appURL, repoURL }) => {
   return (
-    <div class="row">
-      <div class="screenshot-col col-lg-8">
-        <img class="screenshot mr-2 mb-2" src={screenshot} alt="Project screenshot" />
+    <div className="row">
+      <div className="screenshot-col col-lg-8">
+        <img className="screenshot mr-2 mb-2" src={screenshot} alt="Project screenshot" />
       </div>
 
-      <div class="col-lg-4">
-        <div class="screenshot-description">
+      <div className="col-lg-4">
+        <div className="screenshot-description">
           <span>{name}</span>
-          App Link:<a class="screenshot-link" href={appURL} target="_blank">
+          App Link:<a className="screenshot-link" href={appURL} target="_blank">
             {appURL}
           </a>
-          Repository Link:<a class="screenshot-link" href={repoURL} target="_blank">
+          Repository Link:<a className="screenshot-link" href={repoURL} target="_blank">
             {repoURL}
           </a>
         </div>
