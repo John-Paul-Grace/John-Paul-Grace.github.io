@@ -10,10 +10,10 @@ const PortfolioItem = ({ name, screenshot, appURL, repoURL }) => {
       <div className="col-lg-4">
         <div className="screenshot-description">
           <span>{name}</span>
-          App Link:<a className="screenshot-link" href={appURL} target="_blank">
+          App Link:<a className="screenshot-link" href={appURL} target="_blank" rel="noreferrer">
             {appURL}
           </a>
-          Repository Link:<a className="screenshot-link" href={repoURL} target="_blank">
+          Repository Link:<a className="screenshot-link" href={repoURL} target="_blank" rel="noreferrer">
             {repoURL}
           </a>
         </div>
