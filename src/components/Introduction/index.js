@@ -5,19 +5,24 @@ import Skills from "../Skills";
 
 const Introduction = () => {
   return (
-    <div className="p-3 grid grid-col-3 grid-row-3 gap-2 content-wrapper">
+    <div className="grid grid-col-3 grid-row-3 gap-1 pb-3 mb-10 rounded-xl bg-white border-green-600 border-8">
 
-      <div className="header col-span-3 row-span-1">Introduction</div>
-
-      <img className="col-span-1 row-span-2 rounded-xl" src={headshot} width="300px" alt="Headshot of John Paul Grace" />
-
-      <div className="col-span-2 row-span-1">
-        <AboutMe />
+      <div
+        className="text-white text-3xl font-bold text-center py-3 bg-red-900 border-b-8 border-green-600 col-span-3 row-span-1"
+      >
+        Introduction
       </div>
 
-      <div className="col-span-2 row-span-1 border-red-500 border-4">
-        <Skills />
-      </div>
+      <img
+        className="col-span-1 row-span-2 rounded-xl mx-2 border-black border-2"
+        src={headshot}
+        width="300px"
+        alt="Headshot of John Paul Grace"
+      />
+
+      <AboutMe />
+
+      <Skills />
     </div>
   );
 }

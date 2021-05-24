@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This class gives a repeating background image. */
+.background {
+  background-image: url("./images/background.png");
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+td {
+  border: 1px black solid;
+}
+
+th {
+  width: 15%;
+}

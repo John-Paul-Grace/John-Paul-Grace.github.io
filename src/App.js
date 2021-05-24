@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import PortfolioSection from "./components/PortfolioSection";
@@ -7,12 +6,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-      <div className="background">
+    <div>
+      <div className="background px-3 pb-28">
         <Header />
         <Introduction />
         <PortfolioSection />
-        <Footer />
       </div>
+      <Footer />
+    </div>
   );
 }
 
