@@ -14,6 +14,7 @@ const Footer = () => {
             <a href="#portfolio">Portfolio |</a>
             <a href="#portfolio">Resume</a>
           </nav>
+          <br />
           <span className="text-center text-white float">©Copyright 2021 John Paul Grace</span>
         </div>
 
