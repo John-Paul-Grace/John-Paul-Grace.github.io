@@ -5,7 +5,10 @@ import PortfolioItem from "../PortfolioItem";
 
 const PortfolioSection = () => {
   return (
-    <div className="grid gap-4 border-8 border-blue-800 rounded-xl">
+    <div
+      id="portfolio"
+      className="grid gap-4 border-8 border-blue-800 rounded-xl"
+    >
       <PortfolioHeader />
 
       <PortfolioItem
