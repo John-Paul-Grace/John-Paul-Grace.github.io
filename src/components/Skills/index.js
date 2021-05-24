@@ -2,7 +2,11 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="col-span-2 row-span-1 mr-3 border-t-2 border-black">
+    <div
+      className="col-start-1 col-span-2 row-start-4 ml-3
+                 md:col-span-3 lg:col-start-2 lg:col-span-2 lg:row-start-3 lg:ml-0
+                 row-span-1 mr-3 border-t-2 border-black"
+    >
       <span className="text-xl font-bold">Skills & Technologies:</span>
       <table className="w-full text-center text-lg">
         <tr>

@@ -16,9 +16,10 @@ const Introduction = () => {
       </div>
 
       <img
-        className="col-span-1 row-span-2 rounded-xl mx-2 border-black border-2"
+        className="rounded-xl border-black border-2 justify-self-center self-center
+                   col-span-3 row-span-1 w-6/12 
+                   md:col-span-1 md:row-span-2 md:w-11/12"
         src={headshot}
-        width="300px"
         alt="Headshot of John Paul Grace"
       />
 

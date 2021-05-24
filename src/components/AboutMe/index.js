@@ -2,7 +2,8 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <div className="col-span-2 row-span-1 text-lg">
+    <div className="col-span-2 row-span-1 text-lg
+                    ml-3 md:ml-0 mr-3 text-center md:text-left">
       <span className="text-xl font-bold">About Me:</span>
       <p>
         I am a full-stack web developer who has been doing back-end programs for years.
