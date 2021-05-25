@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51a7a6ee.chunk.css",
+    "main.js": "/static/js/main.dcbeb764.chunk.js",
+    "main.js.map": "/static/js/main.dcbeb764.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e8a32645.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e8a32645.js.map",
+    "static/js/2.046ad79c.chunk.js": "/static/js/2.046ad79c.chunk.js",
+    "static/js/2.046ad79c.chunk.js.map": "/static/js/2.046ad79c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.51a7a6ee.chunk.css.map": "/static/css/main.51a7a6ee.chunk.css.map",
+    "static/js/2.046ad79c.chunk.js.LICENSE.txt": "/static/js/2.046ad79c.chunk.js.LICENSE.txt",
+    "static/media/JPG-Brand-Logo.eb58f8af.png": "/static/media/JPG-Brand-Logo.eb58f8af.png",
+    "static/media/JPG-Headshot.2211a544.jpg": "/static/media/JPG-Headshot.2211a544.jpg",
+    "static/media/MongoDB-Logo.94082411.png": "/static/media/MongoDB-Logo.94082411.png",
+    "static/media/React-Logo.a7f234b6.png": "/static/media/React-Logo.a7f234b6.png",
+    "static/media/Tailwind-Logo.f6465245.png": "/static/media/Tailwind-Logo.f6465245.png",
+    "static/media/index.css": "/static/media/background.f7a1d966.png",
+    "static/media/weather-dashboard.5aa46db2.PNG": "/static/media/weather-dashboard.5aa46db2.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8a32645.js",
+    "static/js/2.046ad79c.chunk.js",
+    "static/css/main.51a7a6ee.chunk.css",
+    "static/js/main.dcbeb764.chunk.js"
+  ]
+}
