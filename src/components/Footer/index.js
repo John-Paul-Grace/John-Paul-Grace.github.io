@@ -5,16 +5,15 @@ import brandLogo from "../../images/logo192.png";
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 bg-gray-500 w-full p-3">
+    <footer className="fixed bottom-0 bg-gray-500 w-full">
       <div className="grid grid-cols-3 justify-center gap-2">
 
-        <div>
+        <div className="p-3">
           <nav className="justify-self-start text-blue-200 text-lg font-semibold space-x-2">
             <a href="#introduction">Introduction |</a>
             <a href="#portfolio">Portfolio |</a>
-            <a href="#portfolio">Resume</a>
+            <a href={process.env.PUBLIC_URL + "/Resume.pdf"} target="_blank" rel="noreferrer">Resume</a>
           </nav>
-          <br />
           <span className="text-center text-white float">©Copyright 2021 John Paul Grace</span>
         </div>
 
@@ -25,7 +24,7 @@ const Footer = () => {
           alt="Headshot of John Paul Grace"
         />
 
-        <div className="justify-self-end space-y-1 space-x-2 text-white">
+        <div className="justify-self-end space-y-1 space-x-2 text-white pr-3">
           <span className="float-right">828-482-2619</span>
           <br />
           <span>gracejohnpaul200@gmail.com</span>

@@ -11,33 +11,41 @@ const PortfolioSection = () => {
     >
       <PortfolioHeader />
 
-      <PortfolioItem
-        name="Weather Dashboard"
-        screenshot={weatherDashboardScreenshot}
-        appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
-        repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
-      />
+      <div className="col-span-2 row-span-1 row-start-2 md:row-start-2">
+        <PortfolioItem
+          name="Weather Dashboard"
+          screenshot={weatherDashboardScreenshot}
+          appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
+          repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
+        />
+      </div>
 
-      <PortfolioItem
-        name="Weather Dashboard"
-        screenshot={weatherDashboardScreenshot}
-        appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
-        repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
-      />
+      <div className="col-span-2 row-span-1 row-start-3 md:row-start-2">
+        <PortfolioItem
+          name="Weather Dashboard"
+          screenshot={weatherDashboardScreenshot}
+          appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
+          repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
+        />
+      </div>
 
-      <PortfolioItem
-        name="Weather Dashboard"
-        screenshot={weatherDashboardScreenshot}
-        appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
-        repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
-      />
+      <div className="col-span-2 row-span-1 row-start-4 md:row-start-3">
+        <PortfolioItem
+          name="Weather Dashboard"
+          screenshot={weatherDashboardScreenshot}
+          appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
+          repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
+        />
+      </div>
 
-      <PortfolioItem
-        name="Weather Dashboard"
-        screenshot={weatherDashboardScreenshot}
-        appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
-        repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
-      />
+      <div className="col-span-2 row-span-1 row-start-5 md:row-start-3">
+        <PortfolioItem
+          name="Weather Dashboard"
+          screenshot={weatherDashboardScreenshot}
+          appURL="https://john-paul-grace.github.io/Weather-Dashboard/"
+          repoURL="https://github.com/John-Paul-Grace/Weather-Dashboard"
+        />
+      </div>
     </div>
   )
 }

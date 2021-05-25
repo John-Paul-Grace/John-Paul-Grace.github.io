@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <div className="background px-3 pb-32">
+      <div className="background px-3 pb-40 sm:pb-32">
         <Header />
         <Introduction />
         <PortfolioSection />
