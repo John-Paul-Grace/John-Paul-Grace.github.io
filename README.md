@@ -5,13 +5,17 @@ https://john-paul-grace.github.io/
 
 ## Description
 
-This is a portfolio website designed to be responsive for different device sizes. The navigation bar can be used to access three pages with information about me. The first is the "About Me" page which is the index file. There is also a page for "Contact" and another for "Portfolio". This website serves as my online resume. 
+This is a portfolio website to act as my online resume. It features:
+- a header with a logo I made for myself
+- an introduction with some information about me
+- a table of my tech skills
+- four projects that I would like to highlight from my portfolio
+- and a sticky footer with contact and navigation info
 
-## Contributions
-
-This website was built from the ground up by me with the help of the Bootstrap framework version 4.5. I used the "Navbar" and "Forms" components, as well as the grid system included with Bootstrap.
+This website was made using React and Tailwind. It has been designed to be responsive for different device sizes.
 
 ## Screenshots
-![ScreenShot](./screenshots/Screenshot-1.PNG)
-![ScreenShot](./screenshots/Screenshot-2.PNG)
-![ScreenShot](./screenshots/Screenshot-3.PNG)
+![ScreenShot](./screenshots/Screenshot-Header.PNG)
+![ScreenShot](./screenshots/Screenshot-Introduction.PNG)
+![ScreenShot](./screenshots/Screenshot-Portfolio.PNG)
+![ScreenShot](./screenshots/Screenshot-Footer.PNG)
